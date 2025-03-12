@@ -24,7 +24,13 @@ Write a Python function that takes a string as input and returns the string reve
 
 ## 3. **Factorial of a Number**
 Write a Python program that calculates the factorial of a number (n!). For example, the factorial of 5 is `5 * 4 * 3 * 2 * 1 = 120`.
-
+def factorial_iterative(n)
+factorial=1
+for i in range(1,n+1):
+factorial*=i
+return factorial
+num=int(input("enter a number:"))
+print("factorial of",num,"is",factorial_iterative(num))
 ### Example Input:
 `5`
 
