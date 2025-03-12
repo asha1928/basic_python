@@ -2,6 +2,11 @@
 
 ## 1. **Sum of Even Numbers**
 Write a Python program that calculates the sum of all even numbers between 1 and 100.
+even_sum
+for num in range(2,101,2):
+even_sum+=num
+print("the sum of all even numbers between 1 and 100 is:",even_sum)
+
 
 ### Example Input:
 No input required.
@@ -13,6 +18,11 @@ No input required.
 
 ## 2. **Reverse a String**
 Write a Python function that takes a string as input and returns the string reversed.
+def reverse_string(s):
+return s[::-1]
+input_string="hello"
+reversed_string=reverse_string(input_string)
+print("reversed string:",reversed_string)
 
 ### Example Input:
 `"hello"`
